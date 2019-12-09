@@ -1,0 +1,24 @@
+{
+  "app.dll": {
+    "/Users/saitouikuo/git/netcore3.1-input/src/Program.cs": {
+      "app.Program": {
+        "System.Void app.Program::Main(System.String[])": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String app.Program::Test()": {
+          "Lines": {
+            "12": 1,
+            "13": 1,
+            "14": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
