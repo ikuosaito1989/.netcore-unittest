@@ -1,5 +1,7 @@
 # Unit testing with .NET Core using dotnet test and xUnit
 
+![Alt Text](/assets/images/coverage.png)
+
 ## set coverage threshold to 100% with dotnet test
 
 ```bash
