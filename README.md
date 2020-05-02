@@ -10,8 +10,15 @@ dotnet test /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOu
 
 ## convert to html report
 
+### How to install reportgenerator using .NET Global Tools
+
 ```bash
-./tools/reportgenerator -reports:./TestResults/coverage.info -targetdir:./TestResults/ start ./TestResults/index.htm
+dotnet tool install -g dotnet-reportgenerator-globaltool
+```
+
+### convert
+```bash
+reportgenerator -reports:./TestResults/coverage.info -targetdir:./TestResults/ start ./TestResults/index.htm
 ```
 
 ## required nuget packages
